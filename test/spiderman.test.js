@@ -22,7 +22,7 @@
 
  describe("Unit Test for function getinfo ", () => {
   test('3) Use the method getInfo() with a new instance', () => {
-    const TobeyMaguire = new Spiderman("Spiderman Sony", 46, "Tobey Maguird", 3, "Marvel");
+    const TobeyMaguire = new Spiderman("Spiderman Sony", 46, "Tobey Maguire", 3, "Marvel");
     expect(TobeyMaguire.getInfo()).toBe(`Hey I am Tobey Maguire From Marvel Studio`);
   });
 })
