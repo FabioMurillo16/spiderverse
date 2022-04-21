@@ -10,3 +10,10 @@
        expect(andrewGarfield.studio).toBe("Sony");
      });
  })
+
+
+ describe("Unit Test for function getinfo ", () => {
+   test('2) Use the method getInfo(', () => {
+     
+   });
+ })
