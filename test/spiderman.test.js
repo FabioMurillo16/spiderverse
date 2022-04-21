@@ -13,7 +13,8 @@
 
 
  describe("Unit Test for function getinfo ", () => {
-   test('2) Use the method getInfo(', () => {
-     
+   test('2) Use the method getInfo()', () => {
+     const TomHolland = new Spiderman("Hey I'm Tom Holland From Marvel Studio");
+     expect(TomHolland.name).toBe('Tom Holland');
    });
  })
